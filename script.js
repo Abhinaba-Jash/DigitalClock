@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
       currentDate.getMinutes(),
       currentDate.getSeconds(),
     ];
-    console.log(hours, minutes, seconds);
+    // console.log(hours, minutes, seconds);
     hour.innerText=hours;
     min.innerText=minutes;
     sec.innerText=seconds;
